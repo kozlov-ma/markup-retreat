@@ -31,7 +31,9 @@
 .rate > label:hover ~ label {
     content: url('img/star-empty.svg');
 }
-
+.rate > input + label:hover,
+.rate > input + label:hover ~ label,
+.rate > input ~ label:hover ~ label,
 .rate > label:hover ~ label {
     content: url('img/star.svg');
 }
