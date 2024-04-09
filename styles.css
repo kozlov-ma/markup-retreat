@@ -9,19 +9,18 @@
     padding: 0 10px;
 }
 
-.rate:not(:checked) > input {
+.rate > input {
     position: absolute;
     top: -9999px;
 }
 
-.rate:not(:checked) > label {
+.rate > label {
     float: right;
     width: 1em;
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
     font-size: 30px;
-    color: #ccc;
 }
 
 .rate label:before {
