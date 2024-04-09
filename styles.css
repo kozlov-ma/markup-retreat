@@ -29,10 +29,9 @@
 
 .rate > label:hover,
 .rate > label:hover ~ label {
-    content: url('img/star.svg');
+    content: url('img/star-empty.svg');
 }
 
-.rate > label:hover,
 .rate > label:hover ~ label {
-    content: url('img/star-empty.svg');
+    content: url('img/star.svg');
 }
